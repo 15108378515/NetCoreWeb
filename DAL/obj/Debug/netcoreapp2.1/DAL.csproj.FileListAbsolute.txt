@@ -1,0 +1,14 @@
+F:\MJSite\DAL\bin\Debug\netcoreapp2.1\DAL.deps.json
+F:\MJSite\DAL\bin\Debug\netcoreapp2.1\DAL.dll
+F:\MJSite\DAL\obj\Debug\netcoreapp2.1\DAL.csprojAssemblyReference.cache
+F:\MJSite\DAL\obj\Debug\netcoreapp2.1\DAL.csproj.CoreCompileInputs.cache
+F:\MJSite\DAL\obj\Debug\netcoreapp2.1\DAL.AssemblyInfoInputs.cache
+F:\MJSite\DAL\obj\Debug\netcoreapp2.1\DAL.AssemblyInfo.cs
+F:\MJSite\DAL\bin\Debug\netcoreapp2.1\DAL.runtimeconfig.json
+F:\MJSite\DAL\bin\Debug\netcoreapp2.1\DAL.runtimeconfig.dev.json
+F:\MJSite\DAL\bin\Debug\netcoreapp2.1\DAL.pdb
+F:\MJSite\DAL\bin\Debug\netcoreapp2.1\Model.dll
+F:\MJSite\DAL\bin\Debug\netcoreapp2.1\Model.pdb
+F:\MJSite\DAL\obj\Debug\netcoreapp2.1\DAL.csproj.CopyComplete
+F:\MJSite\DAL\obj\Debug\netcoreapp2.1\DAL.dll
+F:\MJSite\DAL\obj\Debug\netcoreapp2.1\DAL.pdb

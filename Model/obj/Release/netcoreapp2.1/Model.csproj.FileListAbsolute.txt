@@ -1,0 +1,9 @@
+F:\MJSite\Model\bin\Release\netcoreapp2.1\Model.deps.json
+F:\MJSite\Model\bin\Release\netcoreapp2.1\Model.dll
+F:\MJSite\Model\bin\Release\netcoreapp2.1\Model.pdb
+F:\MJSite\Model\obj\Release\netcoreapp2.1\Model.csprojAssemblyReference.cache
+F:\MJSite\Model\obj\Release\netcoreapp2.1\Model.csproj.CoreCompileInputs.cache
+F:\MJSite\Model\obj\Release\netcoreapp2.1\Model.AssemblyInfoInputs.cache
+F:\MJSite\Model\obj\Release\netcoreapp2.1\Model.AssemblyInfo.cs
+F:\MJSite\Model\obj\Release\netcoreapp2.1\Model.dll
+F:\MJSite\Model\obj\Release\netcoreapp2.1\Model.pdb
