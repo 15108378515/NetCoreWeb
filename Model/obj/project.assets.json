@@ -687,11 +687,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "F:\\MJSite\\Model\\Model.csproj",
+      "projectUniqueName": "F:\\NetCoreSite\\Model\\Model.csproj",
       "projectName": "Model",
-      "projectPath": "F:\\MJSite\\Model\\Model.csproj",
+      "projectPath": "F:\\NetCoreSite\\Model\\Model.csproj",
       "packagesPath": "C:\\Users\\Administrator\\.nuget\\packages\\",
-      "outputPath": "F:\\MJSite\\Model\\obj\\",
+      "outputPath": "F:\\NetCoreSite\\Model\\obj\\",
       "projectStyle": "PackageReference",
       "fallbackFolders": [
         "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"

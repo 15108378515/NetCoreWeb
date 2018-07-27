@@ -12,3 +12,17 @@ F:\MJSite\DAL\bin\Debug\netcoreapp2.1\Model.pdb
 F:\MJSite\DAL\obj\Debug\netcoreapp2.1\DAL.csproj.CopyComplete
 F:\MJSite\DAL\obj\Debug\netcoreapp2.1\DAL.dll
 F:\MJSite\DAL\obj\Debug\netcoreapp2.1\DAL.pdb
+F:\NetCoreSite\DAL\bin\Debug\netcoreapp2.1\DAL.deps.json
+F:\NetCoreSite\DAL\bin\Debug\netcoreapp2.1\DAL.runtimeconfig.json
+F:\NetCoreSite\DAL\bin\Debug\netcoreapp2.1\DAL.runtimeconfig.dev.json
+F:\NetCoreSite\DAL\bin\Debug\netcoreapp2.1\DAL.dll
+F:\NetCoreSite\DAL\bin\Debug\netcoreapp2.1\DAL.pdb
+F:\NetCoreSite\DAL\bin\Debug\netcoreapp2.1\Model.dll
+F:\NetCoreSite\DAL\bin\Debug\netcoreapp2.1\Model.pdb
+F:\NetCoreSite\DAL\obj\Debug\netcoreapp2.1\DAL.csprojAssemblyReference.cache
+F:\NetCoreSite\DAL\obj\Debug\netcoreapp2.1\DAL.csproj.CoreCompileInputs.cache
+F:\NetCoreSite\DAL\obj\Debug\netcoreapp2.1\DAL.AssemblyInfoInputs.cache
+F:\NetCoreSite\DAL\obj\Debug\netcoreapp2.1\DAL.AssemblyInfo.cs
+F:\NetCoreSite\DAL\obj\Debug\netcoreapp2.1\DAL.csproj.CopyComplete
+F:\NetCoreSite\DAL\obj\Debug\netcoreapp2.1\DAL.dll
+F:\NetCoreSite\DAL\obj\Debug\netcoreapp2.1\DAL.pdb

@@ -4198,11 +4198,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "F:\\MJSite\\DAL\\DAL.csproj",
+      "projectUniqueName": "F:\\NetCoreSite\\DAL\\DAL.csproj",
       "projectName": "DAL",
-      "projectPath": "F:\\MJSite\\DAL\\DAL.csproj",
+      "projectPath": "F:\\NetCoreSite\\DAL\\DAL.csproj",
       "packagesPath": "C:\\Users\\Administrator\\.nuget\\packages\\",
-      "outputPath": "F:\\MJSite\\DAL\\obj\\",
+      "outputPath": "F:\\NetCoreSite\\DAL\\obj\\",
       "projectStyle": "PackageReference",
       "fallbackFolders": [
         "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"
@@ -4221,8 +4221,8 @@
       "frameworks": {
         "netcoreapp2.1": {
           "projectReferences": {
-            "F:\\MJSite\\Model\\Model.csproj": {
-              "projectPath": "F:\\MJSite\\Model\\Model.csproj"
+            "F:\\NetCoreSite\\Model\\Model.csproj": {
+              "projectPath": "F:\\NetCoreSite\\Model\\Model.csproj"
             }
           }
         }
