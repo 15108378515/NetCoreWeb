@@ -10,9 +10,9 @@ F:\MJSite\Model\obj\Release\netcoreapp2.1\Model.pdb
 F:\NetCoreSite\Model\bin\Release\netcoreapp2.1\Model.deps.json
 F:\NetCoreSite\Model\bin\Release\netcoreapp2.1\Model.dll
 F:\NetCoreSite\Model\bin\Release\netcoreapp2.1\Model.pdb
-F:\NetCoreSite\Model\obj\Release\netcoreapp2.1\Model.csprojAssemblyReference.cache
 F:\NetCoreSite\Model\obj\Release\netcoreapp2.1\Model.csproj.CoreCompileInputs.cache
 F:\NetCoreSite\Model\obj\Release\netcoreapp2.1\Model.AssemblyInfoInputs.cache
 F:\NetCoreSite\Model\obj\Release\netcoreapp2.1\Model.AssemblyInfo.cs
 F:\NetCoreSite\Model\obj\Release\netcoreapp2.1\Model.dll
 F:\NetCoreSite\Model\obj\Release\netcoreapp2.1\Model.pdb
+F:\NetCoreSite\Model\obj\Release\netcoreapp2.1\Model.csprojAssemblyReference.cache

@@ -14,5 +14,7 @@ namespace DAL
 
         public DbSet<UserModel> Users { get; set; }
 
+        public DbSet<ImageModel> Images { get; set; }
+
     }
 }

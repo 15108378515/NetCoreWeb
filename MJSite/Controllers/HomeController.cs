@@ -3,6 +3,7 @@ using System.Collections.Generic;
 using System.Diagnostics;
 using System.Linq;
 using System.Threading.Tasks;
+using Microsoft.AspNetCore.Http;
 using Microsoft.AspNetCore.Mvc;
 using MJSite.Models;
 
@@ -12,6 +13,14 @@ namespace MJSite.Controllers
     {
         public IActionResult Index()
         {
+            if (string.IsNullOrWhiteSpace(HttpContext.Session.GetString("user")))
+            {
+                //插入数据库
+                //新登录的用户
+                HttpContext.Session.SetString("user", "login");
+            }
+          
+          
             return View();
         }
 

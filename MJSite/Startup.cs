@@ -32,7 +32,7 @@ namespace MJSite
                 options.MinimumSameSitePolicy = SameSiteMode.None;
             });
 
-
+            services.AddSession(option => { option.IdleTimeout = new TimeSpan(1, 0, 0); });
             services.AddMvc().SetCompatibilityVersion(CompatibilityVersion.Version_2_1);
             string sqlConnetionStr = Configuration.GetConnectionString("DefaultConnection");
             services.AddDbContextPool<DbBase>(options => options.UseMySql(sqlConnetionStr));
@@ -53,6 +53,7 @@ namespace MJSite
            
             app.UseStaticFiles();
             app.UseCookiePolicy();
+            app.UseSession();
 
             app.UseMvc(routes =>
             {

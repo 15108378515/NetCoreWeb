@@ -6,10 +6,18 @@ namespace Model
     public class UserModel
     {
         [Key]
-        public int UserID { get; set; }
+        public Guid UserID { get; set; }
 
 
         public string UserName { get; set; }
+
+        public string Sex { get; set; }
+
+
+        public int Age { get; set; }
+
+
+        public string Adress { get; set; }
 
     }
 }
