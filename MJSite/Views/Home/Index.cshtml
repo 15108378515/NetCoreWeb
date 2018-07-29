@@ -1,5 +1,5 @@
 ﻿@{
-    ViewData["Title"] = "阿门！上帝庇佑";
+    ViewData["Title"] = "中和镇镇帅";
 }
 
 <!DOCTYPE html>
@@ -40,9 +40,9 @@
                             <span class="icon-bar"></span>
                             <span class="icon-bar"></span>
                         </button>
-                        <h3 style="color:#848484">上帝与你同在！阿门</h3>
+                        <h3 style="color:#848484">中和镇镇帅</h3>
                         <div id="timer"></div>
-                        <span>恭喜你！你是前来寻求上帝庇佑的第</span> <span style="color:darkred">1</span> <span>位观众</span>
+                        <span>恭喜你！你是前来寻求上帝庇佑的第</span> <span style="color:darkred">@((int)ViewBag.UserCount)</span> <span>位观众</span>
                     </div>
                     @*<div class="navbar-collapse collapse ">
                             <ul class="nav navbar-nav">
@@ -58,47 +58,6 @@
             </div>
         </header>
         <!-- end header -->
-        @*<section id="featured">
-
-                <!-- Slider -->
-                <div id="main-slider" class="flexslider">
-                    <ul class="slides">
-                        <li>
-                            <img src="~/images/slides/1.jpg" alt="" />
-                            <div class="flex-caption">
-                                <div class="item_introtext">
-                                    <span>Our Works is</span>
-                                    <strong>Elegant?</strong>
-                                    <p>Go through our website for more</p>
-                                </div>
-                            </div>
-                        </li>
-                        <li>
-                            <img src="~/images/slides/2.jpg" alt="" />
-                            <div class="flex-caption">
-                                <div class="item_introtext">
-                                    <span>We Use</span>
-                                    <strong>Bootstrap?</strong>
-                                    <p>Go through our website for more</p>
-                                </div>
-                            </div>
-                        </li>
-                        <li>
-                            <img src="~/images/slides/3.jpg" alt="" />
-                            <div class="flex-caption">
-                                <div class="item_introtext">
-                                    <span>We use</span>
-                                    <strong>Responsive?</strong>
-                                    <p>Go through our website for more</p>
-                                </div>
-                            </div>
-                        </li>
-                    </ul>
-                </div>
-                <!-- end slider -->
-
-            </section>*@
-       
            
         <section>
             <div id="wrapper">
@@ -134,9 +93,27 @@
 
         <section id="imgs">
             <div class="row">
-                <div class="col-sm-3">
-                    <img title="图片" />
-                </div>
+                @{
+                    if (ViewBag.Images != null)
+                    {
+                        foreach (var item in (ViewBag.Images as List<Model.ImageModel>))
+                        {
+                            
+
+                            <div class="col-xs-6 col-md-3">
+                                <div class="thumbnail">
+                                    <img src="@(item.ImgURL)" alt="图片">
+                                    <div class="caption">
+                                        <p>上传日期:@(item.CreateTime.ToString("yyyy-MM-dd:HH:mm:ss"))</p>
+                                     </div>
+                                    </div>
+
+
+                                </div>
+                        }
+                    }
+
+                }
             </div>
         </section>
 
@@ -166,15 +143,6 @@
     <!-- javascript
         ================================================== -->
     <!-- Placed at the end of the document so the pages load faster -->
-    @*<script src="~/js/jquery.easing.1.3.js"></script>
-        <script src="~/js/bootstrap.min.js"></script>
-        <script src="~/js/jquery.fancybox.pack.js"></script>
-        <script src="~/js/jquery.fancybox-media.js"></script>
-        <script src="~/js/portfolio/jquery.quicksand.js"></script>
-        <script src="~/js/portfolio/setting.js"></script>
-        <script src="~/js/jquery.flexslider.js"></script>
-        <script src="~/js/animate.js"></script>
-        <script src="~/js/custom.js"></script>*@
     <script src="~/js/jquery.js"></script>
     <script src="~/js/webuploader.min.js"></script>
     <script src="~/js/upload.js"></script>
